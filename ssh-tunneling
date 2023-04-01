@@ -1,0 +1,2 @@
+ssh -L [LOCAL PORT]:[REMOTE HOST]:[REMOTE PORT] [USER]@[REMOTE SERVER IP]                 -->   With SSH credendials
+ssh -L [LOCAL PORT]:[REMOTE HOST]:[REMOTE PORT] [USER]@[REMOTE SERVER IP] -i [SSH KEY FILE]    -->   With SSH key
