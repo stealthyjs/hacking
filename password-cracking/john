@@ -1,0 +1,3 @@
+$ john --wordlist=[WORDLIST PATH].txt [HASH PATH].txt
+
+Use JohnTheRipper for offline cracking.
