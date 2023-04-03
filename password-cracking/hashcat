@@ -1,1 +1,4 @@
 $ hashcat -m [HASH TYPE #] -a 0 -o [OUTPUT FILE].txt [HASH FILE].txt [WORDLIST].txt     -->   Dictionary attack
+
+Hash type list:
+https://hashcat.net/wiki/doku.php?id=example_hashes
