@@ -1,0 +1,1 @@
+$ hashcat -m [HASH TYPE #] -a 0 -o [OUTPUT FILE].txt [HASH FILE].txt [WORDLIST].txt     -->   Dictionary attack
