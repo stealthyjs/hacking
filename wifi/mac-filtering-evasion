@@ -1,0 +1,11 @@
+Scan for wireless acess points:
+$ airodump-ng start [WIRELESS ADAPTER]
+$ airodump-ng [WIRELESS ADAPTER]mon   -->   Wireless adapter name after monitor mode is activated
+
+Scan for connected devices:
+$ airodump-ng -c 11 -a -bssid [MAC ADDRESS OF ACCESS POINT]
+
+MAC address spoofing:
+$ ifconfig [WIRELESS ADAPTER] down
+$ macchanger -m [MAC ADDRESS OF CONNECTED DEVICE] [WIRELESS ADAPTER]
+$ ifconfig [WIRELESS ADAPTER] up
