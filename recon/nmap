@@ -1,2 +1,2 @@
 nmap -sn [TARGET NETWORK]/[SUBNET]    -->   Finding the target on the network
-nmap -sSCV -p- -T4 [TARGET IP]        -->   Scanning for open ports and services
+sudo nmap -sSCV -p- -T4 [TARGET IP]        -->   Scanning for open ports and services
