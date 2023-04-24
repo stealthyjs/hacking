@@ -1,1 +1,1 @@
-gobuster dir -e -u http://[TARGET] -w [WORDLIST PATH].txt -t 200     -->   Scan for directories on a website using a wordlist
+gobuster dir -e -u http://[TARGET] -w [WORDLIST PATH].txt     -->   Scan for directories on a website using a wordlist
