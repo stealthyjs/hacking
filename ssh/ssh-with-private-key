@@ -1,0 +1,3 @@
+ssh -i [PATH TO RSA PRIVATE KEY].txt [USER]@[SERVER]
+
+## Make sure your private key file has the 600 or 400 permissions.
