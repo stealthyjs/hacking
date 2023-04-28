@@ -1,18 +1,18 @@
 # Stealth
 
 ## Proxychains
-```shell
+```console
 proxychains [YOUR COMMAND] [ARGUMENTS]
 ```
 
 Example:
-```shell
+```console
 proxychains nmap -sSCV -p- -T4 10.0.0.5
 ```
 
 Configuration file location: ```/etc/proxychains.conf```
 
 ## OpenVPN
-```shell
+```console
 sudo openvpn [CONFIG FILE].ovpn
 ```
