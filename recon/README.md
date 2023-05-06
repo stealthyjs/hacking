@@ -20,6 +20,6 @@ Recommended wordlist: `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.
 ## Wfuzz
 Fuzzing a website using a wordlist.
 ```console
-wfuzz -c -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 http://[TARGET]/FUZZ
+wfuzz -c -z file,[WORDLIST].txt --hc 404 http://[TARGET]/FUZZ
 ```
-Recommended wordlist: `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
+Recommended wordlist: `/usr/share/wfuzz/wordlist/general/common.txt`
