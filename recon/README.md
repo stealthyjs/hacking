@@ -15,9 +15,11 @@ Scan for directories on a website using a wordlist.
 ```console
 gobuster dir -e -u http://[TARGET] -w [WORDLIST PATH].txt
 ```
+Recommended wordlist: `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
 
 ## Wfuzz
 Fuzzing a website using a wordlist.
 ```console
 wfuzz -c -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 http://[TARGET]/FUZZ
 ```
+Recommended wordlist: `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
