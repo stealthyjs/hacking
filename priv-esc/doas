@@ -1,0 +1,3 @@
+$ cd /
+
+$ find / -type f -name doas.conf 2>/dev/null
