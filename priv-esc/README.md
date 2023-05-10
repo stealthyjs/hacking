@@ -12,3 +12,13 @@ cd /
 ```console
 find . -perm /4000 2</dev/null
 ```
+
+## doas
+doas is a free and open-source utility developed by the OpenBSD project as a minimalistic alternative to sudo.
+
+```console
+cd /
+```
+```console
+find / -type f -name doas.conf 2>/dev/null
+```
