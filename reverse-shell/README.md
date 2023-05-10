@@ -18,3 +18,6 @@ Press `CTRL` + `Z`
 ```console
 stty raw -echo; fg
 ```
+
+## PHP Reverse Shell (Pentestmonkey)
+[https://github.com/pentestmonkey/php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell)
