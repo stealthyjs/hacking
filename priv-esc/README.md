@@ -9,6 +9,10 @@ sudo -l
 ```console
 sudo -u [USER] [COMMAND]
 ```
+## List all users
+```console
+cat /etc/passwd
+```
 
 ## List SUID
 ```console
