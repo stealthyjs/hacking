@@ -11,7 +11,7 @@ sudo -u [USER] [COMMAND]
 ```
 ## List all users
 ```console
-cat /etc/passwd
+grep -wv nologin /etc/passwd
 ```
 
 ## List SUID
