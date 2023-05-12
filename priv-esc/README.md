@@ -1,5 +1,10 @@
 # Privilege Escalation
 
+## List sudo permissions for current user
+```console
+sudo -l
+```
+
 ## Run sudo as a user
 ```console
 sudo -u [USER] [COMMAND]
@@ -11,6 +16,11 @@ cd /
 ```
 ```console
 find . -perm /4000 2</dev/null
+```
+
+## List services running as root
+```console
+ps -aux | grep root
 ```
 
 ## doas
