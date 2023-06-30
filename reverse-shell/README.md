@@ -19,5 +19,9 @@ Press `CTRL` + `Z`
 stty raw -echo; fg
 ```
 
+```console
+stty cols 236 rows 52
+```
+
 ## PHP Reverse Shell (Pentestmonkey)
 [https://github.com/pentestmonkey/php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell)
