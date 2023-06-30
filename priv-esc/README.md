@@ -19,7 +19,7 @@ grep -wv nologin /etc/passwd
 cd /
 ```
 ```console
-find . -perm /4000 2</dev/null
+find . -perm /4000 2>/dev/null
 ```
 
 ## List services running as root
