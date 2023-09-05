@@ -23,3 +23,9 @@ Fuzzing a website using a wordlist.
 wfuzz -c -z file,[WORDLIST].txt --hc 404 http://[TARGET]/FUZZ
 ```
 Recommended wordlist: `/usr/share/wfuzz/wordlist/general/common.txt`
+
+## WPScan
+### Plugins detection
+```console
+wpscan --url [https://url.com] -e vp --plugins-detection passive
+```
