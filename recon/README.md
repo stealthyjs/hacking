@@ -17,6 +17,11 @@ gobuster dir -e -u http://[TARGET] -w [WORDLIST PATH].txt
 ```
 Recommended wordlist: `/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
 
+Scan for subdomains using dns.
+```console
+gobuster dns -d [TARGET] -w $wordlists/dns/subdomains-top1million-20000.txt -t 20
+```
+
 ## Wfuzz
 Fuzzing a website using a wordlist.
 ```console
