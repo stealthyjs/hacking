@@ -8,5 +8,5 @@
 ```
 Then, to run a command:
 ```
-https://domain.com/?<INSERT KEY HERE>=<COMMAND>
+https://domain.com/filename.php?<INSERT KEY HERE>=<COMMAND>
 ```
